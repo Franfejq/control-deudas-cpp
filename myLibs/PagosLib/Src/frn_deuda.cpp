@@ -45,3 +45,21 @@ void leer_historial_deuda(const std::string& nombre_archivo, RegistroPago& histo
         new_file.close();
     }
 }
+
+void pagar_insertar_deuda(const std::string& nombre_archivo, RegistroPago& historial)
+{
+    if ( historial.monto > 0)
+    {
+        historial.deudaRestante -= historial.monto; //Deuda - Pago
+
+        //Abrimos el archivo en modo escritura con el parametro std::ios::app para no sobreescribir nada
+        std::ofstream w_file(nombre_archivo, std::ios::app);
+        if (w_file.is_open())
+        {
+            w_file << historial.monto << "," << historial.deudaRestante << "\n";
+            w_file.close();
+
+            std::cout << "Se inserto el pago exitosamente. Deuda restante: $" << historial.deudaRestante << " MXN\n";
+        }
+    }
+}

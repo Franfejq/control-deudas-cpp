@@ -5,6 +5,7 @@
 #ifndef DEUDAPROJECT_FRN_DEUDA_H
 #define DEUDAPROJECT_FRN_DEUDA_H
 
+#include <iostream>
 #include <string>
 #include <fstream>
 #include <sstream>
@@ -15,5 +16,6 @@ typedef struct
 }RegistroPago;
 
 void leer_historial_deuda(const std::string& nombre_archivo, RegistroPago& historial);
+void pagar_insertar_deuda(const std::string& nombre_archivo, RegistroPago& historial);
 
 #endif //DEUDAPROJECT_FRN_DEUDA_H
