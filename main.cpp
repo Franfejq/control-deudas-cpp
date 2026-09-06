@@ -9,7 +9,7 @@
 const double DEUDA_INICIAL = 7399.00;
 
 /*Nombre del archivo .csv*/
-const std::string file_name = "Pagos.csv";
+const std::string file_name = "../Pagos.csv";
 
 
 int main()
