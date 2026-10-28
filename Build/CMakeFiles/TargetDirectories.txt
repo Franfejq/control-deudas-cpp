@@ -1,0 +1,6 @@
+/home/fran_linx/controlDeudas/control-deudas-cpp/Build/CMakeFiles/DeudaProject.dir
+/home/fran_linx/controlDeudas/control-deudas-cpp/Build/CMakeFiles/edit_cache.dir
+/home/fran_linx/controlDeudas/control-deudas-cpp/Build/CMakeFiles/rebuild_cache.dir
+/home/fran_linx/controlDeudas/control-deudas-cpp/Build/myLibs/PagosLib/CMakeFiles/PagosLib.dir
+/home/fran_linx/controlDeudas/control-deudas-cpp/Build/myLibs/PagosLib/CMakeFiles/edit_cache.dir
+/home/fran_linx/controlDeudas/control-deudas-cpp/Build/myLibs/PagosLib/CMakeFiles/rebuild_cache.dir
